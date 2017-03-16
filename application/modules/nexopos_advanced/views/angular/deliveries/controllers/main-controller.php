@@ -5,7 +5,6 @@ var deliveriesMain          =   function( deliveriesTextDomain, $scope, $http, d
     $scope.validate         =   new sharedValidate();
     $scope.table            =   new sharedTable();
     $scope.table.columns    =   deliveriesTable.columns;
-    $scope.table.customEntryActions = deliveriesTable.actions;
 
     /** Adjust Entry actions **/
     _.each( sharedEntryActions, function( value, key ) {

@@ -51,9 +51,6 @@
                                         ng-click="table.submitSingleAction( entry, action )"
                                     >{{ action.name }}</a>
                                 </li>
-                                <li ng-repeat="action in table.customEntryActions">
-                                    <a href="{{ action.url + entry.id}}">{{ action.label}}</a>
-                                </li>
                               </ul>
                             </div>
                         </td>
